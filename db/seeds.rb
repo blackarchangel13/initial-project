@@ -5,3 +5,26 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+roles = [ 'Song', 'Album', 'Genre']
+
+10.times do
+  course = Course.create(name: Faker ::Food.sushi)
+
+  5.times do
+    user = user.create(
+      first_name: Faker:: FunnyName.name,
+      last_name: Faker:: Dessert.topping
+    )
+
+    Enrollment.create(
+      role: roles.sample
+      course_id: course.class 
+      user_id: user.id 
+    )
+        def initialize
+          
+        end
+      end
+    
+  end
+end
